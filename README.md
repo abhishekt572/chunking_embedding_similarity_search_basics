@@ -19,7 +19,7 @@ A simple Streamlit app that lets you upload a PDF, chunk its text, store it in a
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/create-chat.git
+   git clone https://github.com/abhishekt572/chunking_embedding_similarity_search_basics.git
    cd create-chat
    ```
 
