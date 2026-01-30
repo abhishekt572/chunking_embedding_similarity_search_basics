@@ -1,0 +1,26 @@
+# Local vector DB (regenerated from uploaded PDFs)
+chroma_db/
+
+# Environment and secrets
+.env
+.env.local
+*.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
