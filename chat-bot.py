@@ -33,9 +33,8 @@ with st.sidebar:
 #     st.write(chunks[i])
 st.write("Chunks:", len(chunks))
 
-# API key: set GOOGLE_API_KEY in your environment (see README.md)
-if not os.environ.get("GOOGLE_API_KEY"):
-    st.warning("Set GOOGLE_API_KEY in your environment to use embeddings.")
+# API key (as requested: kept in code for now)
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY_YOUR"
 # st.write(os.getcwd())
 persist_directory = os.path.join(os.getcwd(), "chroma_db")
 collection_name = "pdf_chunks"
